@@ -3,7 +3,7 @@
 
 我们在使用Unity开发iOS平台游戏时，有些功能需要调用iOS原生API或SDK，这就涉及到unity和iOS跨平台的交互，Unity已提供了导出iOS工程的功能，我们可以在Xcode中完成后续工作，下面将对两者交互进行介绍。
 
-####Unity调用iOS函数
+### Unity调用iOS函数
 - Unity 中函数声明
 
 ```
@@ -53,8 +53,8 @@ extern "C" {
 ![Alt text](./showAlert.gif)
 
 
-####iOS调用Unity函数
-##### 方式一：
+### iOS调用Unity函数
+#### 方式一：
 Unity为我们提供了一个方法，不管是iOS还是Android，调用Unity都是这个方法，但MacOS不支持.
 > UnitySendMessage("GameObjectName", "MethodName", "Message to send");
 
@@ -83,7 +83,7 @@ UnitySendMessage("Main Camera","updateLabelContent",[text UTF8String]);
 
 **该方式扩展性较差，iOS无法接收到Unity中方法返回值，并且`UnitySendMessage`只能传一个参数，若有多个参数，则需拼成字符串**
 
-##### 方式二：
+#### 方式二：
 使用Mono的跨平台机制，通过`[MonoPInvokeCallback(typeof(CallBack))]`来实现方法回调。该方式适用iOS、Android，和MacOS。
 
 - Unity 中函数声明
