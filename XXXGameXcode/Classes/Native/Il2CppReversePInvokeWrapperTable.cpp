@@ -14,5 +14,5 @@
 
 extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[1] = 
 {
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Main_UnityLoginFinsihCallBack_m2544565758),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Main_UnityLoginFinsihCallBack_m1471320388),
 };

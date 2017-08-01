@@ -20,7 +20,6 @@ struct AsyncCallback_t163412349;
 struct Il2CppObject;
 
 #include "mscorlib_System_MulticastDelegate3201952435.h"
-#include "mscorlib_System_Void1841601450.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push

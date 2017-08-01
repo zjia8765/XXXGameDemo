@@ -31,9 +31,9 @@ struct AsyncCallback_t163412349;
 
 // System.Void Main/CallBack::.ctor(System.Object,System.IntPtr)
 extern "C"  void CallBack__ctor_m2706899012 (CallBack_t680792167 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void Main/CallBack::Invoke(System.String)
-extern "C"  void CallBack_Invoke_m1603835916 (CallBack_t680792167 * __this, String_t* ___param0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Main/CallBack::Invoke(System.String)
+extern "C"  int32_t CallBack_Invoke_m2377893606 (CallBack_t680792167 * __this, String_t* ___param0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult Main/CallBack::BeginInvoke(System.String,System.AsyncCallback,System.Object)
 extern "C"  Il2CppObject * CallBack_BeginInvoke_m2725559739 (CallBack_t680792167 * __this, String_t* ___param0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void Main/CallBack::EndInvoke(System.IAsyncResult)
-extern "C"  void CallBack_EndInvoke_m3885442306 (CallBack_t680792167 * __this, Il2CppObject * ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Main/CallBack::EndInvoke(System.IAsyncResult)
+extern "C"  int32_t CallBack_EndInvoke_m4032999552 (CallBack_t680792167 * __this, Il2CppObject * ___result0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

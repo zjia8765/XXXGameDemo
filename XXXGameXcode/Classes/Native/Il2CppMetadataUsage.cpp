@@ -1208,7 +1208,7 @@ const MethodInfo* List_1_GetEnumerator_m2194315060_MethodInfo_var;
 const MethodInfo* Enumerator_get_Current_m3357972160_MethodInfo_var;
 const MethodInfo* Enumerator_MoveNext_m2967912146_MethodInfo_var;
 const MethodInfo* Enumerator_Dispose_m4224423677_MethodInfo_var;
-const MethodInfo* Main_UnityLoginFinsihCallBack_m2544565758_MethodInfo_var;
+const MethodInfo* Main_UnityLoginFinsihCallBack_m1471320388_MethodInfo_var;
 FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D1_1_FieldInfo_var;
 FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D2_2_FieldInfo_var;
 FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D3_3_FieldInfo_var;
@@ -5134,7 +5134,7 @@ extern void** const g_MetadataUsages[3924] =
 	(void**)&Enumerator_get_Current_m3357972160_MethodInfo_var,
 	(void**)&Enumerator_MoveNext_m2967912146_MethodInfo_var,
 	(void**)&Enumerator_Dispose_m4224423677_MethodInfo_var,
-	(void**)&Main_UnityLoginFinsihCallBack_m2544565758_MethodInfo_var,
+	(void**)&Main_UnityLoginFinsihCallBack_m1471320388_MethodInfo_var,
 	(void**)&U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D1_1_FieldInfo_var,
 	(void**)&U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D2_2_FieldInfo_var,
 	(void**)&U3CPrivateImplementationDetailsU3E_t1486305137____U24U24fieldU2D3_3_FieldInfo_var,
@@ -10520,8 +10520,8 @@ extern const uint32_t MACTripleDES_Setup_m1255308702_MetadataUsageId = 2654;
 extern const uint32_t Main__cctor_m2288302007_MetadataUsageId = 2655;
 extern const uint32_t Main_OnGUI_m4007704720_MetadataUsageId = 2656;
 extern const uint32_t Main_Start_m2091519880_MetadataUsageId = 2657;
-extern const uint32_t Main_t2809994845_CustomAttributesCacheGenerator_Main_UnityLoginFinsihCallBack_m2544565758_MetadataUsageId = 2658;
-extern const uint32_t Main_UnityLoginFinsihCallBack_m2544565758_MetadataUsageId = 2659;
+extern const uint32_t Main_t2809994845_CustomAttributesCacheGenerator_Main_UnityLoginFinsihCallBack_m1471320388_MetadataUsageId = 2658;
+extern const uint32_t Main_UnityLoginFinsihCallBack_m1471320388_MetadataUsageId = 2659;
 extern const uint32_t Main_updateLabelContent_m102698458_MetadataUsageId = 2660;
 extern const uint32_t Marshal__cctor_m802981325_MetadataUsageId = 2661;
 extern const uint32_t Marshal_Copy_m1683535972_MetadataUsageId = 2662;

@@ -8401,17 +8401,17 @@ extern "C" void FieldWithTarget_GetValue_m3773769385 ();
 extern "C" void Main__ctor_m325986520 ();
 extern "C" void Main_getuserInfo_m1951820632 ();
 extern "C" void Main_showAlertWithContent_m1739927590 ();
-extern "C" void Main_loginFinishCallBack_m3564879570 ();
-extern "C" void Main_UnityLoginFinsihCallBack_m2544565758 ();
+extern "C" void Main_loginWithFinishCallBack_m1886411894 ();
+extern "C" void Main_UnityLoginFinsihCallBack_m1471320388 ();
 extern "C" void Main_Start_m2091519880 ();
 extern "C" void Main_Update_m2467676297 ();
 extern "C" void Main_OnGUI_m4007704720 ();
 extern "C" void Main_updateLabelContent_m102698458 ();
 extern "C" void Main__cctor_m2288302007 ();
 extern "C" void CallBack__ctor_m2706899012 ();
-extern "C" void CallBack_Invoke_m1603835916 ();
+extern "C" void CallBack_Invoke_m2377893606 ();
 extern "C" void CallBack_BeginInvoke_m2725559739 ();
-extern "C" void CallBack_EndInvoke_m3885442306 ();
+extern "C" void CallBack_EndInvoke_m4032999552 ();
 extern const Il2CppMethodPointer g_MethodPointers[8401] = 
 {
 	Locale_GetText_m1954433032,
@@ -16804,15 +16804,15 @@ extern const Il2CppMethodPointer g_MethodPointers[8401] =
 	Main__ctor_m325986520,
 	Main_getuserInfo_m1951820632,
 	Main_showAlertWithContent_m1739927590,
-	Main_loginFinishCallBack_m3564879570,
-	Main_UnityLoginFinsihCallBack_m2544565758,
+	Main_loginWithFinishCallBack_m1886411894,
+	Main_UnityLoginFinsihCallBack_m1471320388,
 	Main_Start_m2091519880,
 	Main_Update_m2467676297,
 	Main_OnGUI_m4007704720,
 	Main_updateLabelContent_m102698458,
 	Main__cctor_m2288302007,
 	CallBack__ctor_m2706899012,
-	CallBack_Invoke_m1603835916,
+	CallBack_Invoke_m2377893606,
 	CallBack_BeginInvoke_m2725559739,
-	CallBack_EndInvoke_m3885442306,
+	CallBack_EndInvoke_m4032999552,
 };

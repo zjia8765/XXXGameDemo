@@ -153,7 +153,7 @@ extern "C" {
         return res;
     }
     
-    void loginFinishCallBack(Unity_CallBack callback){
+    void loginWithFinishCallBack(Unity_CallBack callback){
         [UnityIOSBridge sharedManager].callBack = callback;
     }
     

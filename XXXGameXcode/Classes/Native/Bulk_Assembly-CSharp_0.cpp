@@ -37,6 +37,7 @@ struct AsyncCallback_t163412349;
 #include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
 #include "mscorlib_System_String2029220233.h"
 #include "AssemblyU2DCSharp_Main_CallBack680792167.h"
+#include "mscorlib_System_Int322071877448.h"
 #include "mscorlib_System_String2029220233MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
 #include "mscorlib_System_Object2689449295.h"
@@ -53,7 +54,6 @@ struct AsyncCallback_t163412349;
 #include "mscorlib_System_Boolean3825574718.h"
 #include "UnityEngine_UnityEngine_GUIStyleState3801000545.h"
 #include "UnityEngine_UnityEngine_Color2020392075.h"
-#include "mscorlib_System_Int322071877448.h"
 #include "mscorlib_System_AsyncCallback163412349.h"
 
 #ifdef __clang__
@@ -106,9 +106,9 @@ extern "C"  void Main_showAlertWithContent_m1739927590 (Il2CppObject * __this /*
 	____content0_marshaled = NULL;
 
 }
-extern "C" void DEFAULT_CALL loginFinishCallBack(Il2CppMethodPointer);
-// System.Void Main::loginFinishCallBack(Main/CallBack)
-extern "C"  void Main_loginFinishCallBack_m3564879570 (Il2CppObject * __this /* static, unused */, CallBack_t680792167 * ___cb0, const MethodInfo* method)
+extern "C" void DEFAULT_CALL loginWithFinishCallBack(Il2CppMethodPointer);
+// System.Void Main::loginWithFinishCallBack(Main/CallBack)
+extern "C"  void Main_loginWithFinishCallBack_m1886411894 (Il2CppObject * __this /* static, unused */, CallBack_t680792167 * ___cb0, const MethodInfo* method)
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
 
@@ -117,21 +117,21 @@ extern "C"  void Main_loginFinishCallBack_m3564879570 (Il2CppObject * __this /* 
 	____cb0_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<Il2CppCodeGenMulticastDelegate*>(___cb0));
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(loginFinishCallBack)(____cb0_marshaled);
+	reinterpret_cast<PInvokeFunc>(loginWithFinishCallBack)(____cb0_marshaled);
 
 }
-// System.Void Main::UnityLoginFinsihCallBack(System.String)
+// System.Int32 Main::UnityLoginFinsihCallBack(System.String)
 extern Il2CppClass* Main_t2809994845_il2cpp_TypeInfo_var;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1200633150;
-extern const uint32_t Main_UnityLoginFinsihCallBack_m2544565758_MetadataUsageId;
-extern "C"  void Main_UnityLoginFinsihCallBack_m2544565758 (Il2CppObject * __this /* static, unused */, String_t* ___param0, const MethodInfo* method)
+extern const uint32_t Main_UnityLoginFinsihCallBack_m1471320388_MetadataUsageId;
+extern "C"  int32_t Main_UnityLoginFinsihCallBack_m1471320388 (Il2CppObject * __this /* static, unused */, String_t* ___param0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Main_UnityLoginFinsihCallBack_m2544565758_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Main_UnityLoginFinsihCallBack_m1471320388_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -143,10 +143,10 @@ extern "C"  void Main_UnityLoginFinsihCallBack_m2544565758 (Il2CppObject * __thi
 		String_t* L_2 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1200633150, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
 		Debug_Log_m920475918(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-		return;
+		return ((int32_t)100);
 	}
 }
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Main_UnityLoginFinsihCallBack_m2544565758(char* ___param0)
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_Main_UnityLoginFinsihCallBack_m1471320388(char* ___param0)
 {
 	il2cpp_native_wrapper_vm_thread_attacher _vmThreadHelper;
 
@@ -155,13 +155,14 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Main_UnityLoginFinsihCallBack
 	____param0_unmarshaled = il2cpp_codegen_marshal_string_result(___param0);
 
 	// Managed method invocation
-	::Main_UnityLoginFinsihCallBack_m2544565758(NULL, ____param0_unmarshaled, NULL);
+	int32_t returnValue = ::Main_UnityLoginFinsihCallBack_m1471320388(NULL, ____param0_unmarshaled, NULL);
 
+	return returnValue;
 }
 // System.Void Main::Start()
 extern Il2CppClass* Main_t2809994845_il2cpp_TypeInfo_var;
 extern Il2CppClass* CallBack_t680792167_il2cpp_TypeInfo_var;
-extern const MethodInfo* Main_UnityLoginFinsihCallBack_m2544565758_MethodInfo_var;
+extern const MethodInfo* Main_UnityLoginFinsihCallBack_m1471320388_MethodInfo_var;
 extern const uint32_t Main_Start_m2091519880_MetadataUsageId;
 extern "C"  void Main_Start_m2091519880 (Main_t2809994845 * __this, const MethodInfo* method)
 {
@@ -181,7 +182,7 @@ extern "C"  void Main_Start_m2091519880 (Main_t2809994845 * __this, const Method
 	}
 	{
 		IntPtr_t L_1;
-		L_1.set_m_value_0((void*)(void*)Main_UnityLoginFinsihCallBack_m2544565758_MethodInfo_var);
+		L_1.set_m_value_0((void*)(void*)Main_UnityLoginFinsihCallBack_m1471320388_MethodInfo_var);
 		CallBack_t680792167 * L_2 = (CallBack_t680792167 *)il2cpp_codegen_object_new(CallBack_t680792167_il2cpp_TypeInfo_var);
 		CallBack__ctor_m2706899012(L_2, NULL, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Main_t2809994845_il2cpp_TypeInfo_var);
@@ -192,7 +193,7 @@ IL_0018:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Main_t2809994845_il2cpp_TypeInfo_var);
 		CallBack_t680792167 * L_3 = ((Main_t2809994845_StaticFields*)Main_t2809994845_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_3();
-		Main_loginFinishCallBack_m3564879570(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Main_loginWithFinishCallBack_m1886411894(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -334,34 +335,34 @@ extern "C"  void CallBack__ctor_m2706899012 (CallBack_t680792167 * __this, Il2Cp
 	__this->set_method_3(___method1);
 	__this->set_m_target_2(___object0);
 }
-// System.Void Main/CallBack::Invoke(System.String)
-extern "C"  void CallBack_Invoke_m1603835916 (CallBack_t680792167 * __this, String_t* ___param0, const MethodInfo* method)
+// System.Int32 Main/CallBack::Invoke(System.String)
+extern "C"  int32_t CallBack_Invoke_m2377893606 (CallBack_t680792167 * __this, String_t* ___param0, const MethodInfo* method)
 {
 	if(__this->get_prev_9() != NULL)
 	{
-		CallBack_Invoke_m1603835916((CallBack_t680792167 *)__this->get_prev_9(),___param0, method);
+		CallBack_Invoke_m2377893606((CallBack_t680792167 *)__this->get_prev_9(),___param0, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
 	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, String_t* ___param0, const MethodInfo* method);
-		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___param0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+		typedef int32_t (*FunctionPointerType) (Il2CppObject *, void* __this, String_t* ___param0, const MethodInfo* method);
+		return ((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___param0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
 	}
 	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (void* __this, String_t* ___param0, const MethodInfo* method);
-		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___param0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+		typedef int32_t (*FunctionPointerType) (void* __this, String_t* ___param0, const MethodInfo* method);
+		return ((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___param0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
 	}
 	else
 	{
-		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
-		((FunctionPointerType)__this->get_method_ptr_0())(___param0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+		typedef int32_t (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		return ((FunctionPointerType)__this->get_method_ptr_0())(___param0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
 	}
 }
-extern "C"  void DelegatePInvokeWrapper_CallBack_t680792167 (CallBack_t680792167 * __this, String_t* ___param0, const MethodInfo* method)
+extern "C"  int32_t DelegatePInvokeWrapper_CallBack_t680792167 (CallBack_t680792167 * __this, String_t* ___param0, const MethodInfo* method)
 {
-	typedef void (STDCALL *PInvokeFunc)(char*);
+	typedef int32_t (STDCALL *PInvokeFunc)(char*);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
 
 	// Marshaling of parameter '___param0' to native representation
@@ -369,12 +370,13 @@ extern "C"  void DelegatePInvokeWrapper_CallBack_t680792167 (CallBack_t680792167
 	____param0_marshaled = il2cpp_codegen_marshal_string(___param0);
 
 	// Native function invocation
-	il2cppPInvokeFunc(____param0_marshaled);
+	int32_t returnValue = il2cppPInvokeFunc(____param0_marshaled);
 
 	// Marshaling cleanup of parameter '___param0' native representation
 	il2cpp_codegen_marshal_free(____param0_marshaled);
 	____param0_marshaled = NULL;
 
+	return returnValue;
 }
 // System.IAsyncResult Main/CallBack::BeginInvoke(System.String,System.AsyncCallback,System.Object)
 extern "C"  Il2CppObject * CallBack_BeginInvoke_m2725559739 (CallBack_t680792167 * __this, String_t* ___param0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
@@ -383,10 +385,11 @@ extern "C"  Il2CppObject * CallBack_BeginInvoke_m2725559739 (CallBack_t680792167
 	__d_args[0] = ___param0;
 	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
 }
-// System.Void Main/CallBack::EndInvoke(System.IAsyncResult)
-extern "C"  void CallBack_EndInvoke_m3885442306 (CallBack_t680792167 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+// System.Int32 Main/CallBack::EndInvoke(System.IAsyncResult)
+extern "C"  int32_t CallBack_EndInvoke_m4032999552 (CallBack_t680792167 * __this, Il2CppObject * ___result0, const MethodInfo* method)
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	Il2CppObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((Il2CppCodeGenObject*)__result);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

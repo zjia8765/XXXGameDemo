@@ -29,11 +29,11 @@ extern "C"  void Main__ctor_m325986520 (Main_t2809994845 * __this, const MethodI
 extern "C"  String_t* Main_getuserInfo_m1951820632 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Main::showAlertWithContent(System.String)
 extern "C"  void Main_showAlertWithContent_m1739927590 (Il2CppObject * __this /* static, unused */, String_t* ___content0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void Main::loginFinishCallBack(Main/CallBack)
-extern "C"  void Main_loginFinishCallBack_m3564879570 (Il2CppObject * __this /* static, unused */, CallBack_t680792167 * ___cb0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void Main::UnityLoginFinsihCallBack(System.String)
-extern "C"  void Main_UnityLoginFinsihCallBack_m2544565758 (Il2CppObject * __this /* static, unused */, String_t* ___param0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Main_UnityLoginFinsihCallBack_m2544565758(char* ___param0);
+// System.Void Main::loginWithFinishCallBack(Main/CallBack)
+extern "C"  void Main_loginWithFinishCallBack_m1886411894 (Il2CppObject * __this /* static, unused */, CallBack_t680792167 * ___cb0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Main::UnityLoginFinsihCallBack(System.String)
+extern "C"  int32_t Main_UnityLoginFinsihCallBack_m1471320388 (Il2CppObject * __this /* static, unused */, String_t* ___param0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_Main_UnityLoginFinsihCallBack_m1471320388(char* ___param0);
 // System.Void Main::Start()
 extern "C"  void Main_Start_m2091519880 (Main_t2809994845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Main::Update()

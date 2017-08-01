@@ -17,23 +17,24 @@ public class Main : MonoBehaviour {
 	[DllImport("__Internal")]
 	private static extern void showAlertWithContent (string content);
 
-	delegate void CallBack(string param);  
+	delegate int CallBack(string param);  
 	[DllImport("__Internal")]
-	static extern void loginFinishCallBack(CallBack cb);
+	static extern void loginWithFinishCallBack(CallBack cb);
 	[MonoPInvokeCallback(typeof(CallBack))]  
 
-	static void UnityLoginFinsihCallBack(string param) {  
+	static int UnityLoginFinsihCallBack(string param) {  
 		Main.labelValue = param;
 		Debug.Log("LoginFinsih>>>>>" + param);  
+		return 100;
 	}  
 
 	void Start () {
-		loginFinishCallBack (Main.UnityLoginFinsihCallBack);
+		loginWithFinishCallBack (Main.UnityLoginFinsihCallBack);
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
 	void OnGUI() {
