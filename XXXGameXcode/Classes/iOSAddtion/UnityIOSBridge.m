@@ -8,15 +8,6 @@
 #import "UnityIOSBridge.h"
 
 
-#if defined(__cplusplus)
-extern "C" {
-#endif
-    extern NSString *CStringToNSString(const char *string);
-#if defined(__cplusplus)
-}
-#endif
-
-
 typedef void (*Unity_CallBack)(const char * p);
 
 @interface UnityIOSBridge()
